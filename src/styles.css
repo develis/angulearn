@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4{
+    font-weight: 700 !important;
+}
+
+.red_line{
+    width: 60%;
+    min-height: 6%;
+    background: #C3002F;
+}
+
+.smaller_red_line{
+    width: 100%;
+    min-height: 0.5vh;
+    background: #C3002F;
+}
+
+.dflex_center{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.justified{
+    text-align: justify !important;
+}

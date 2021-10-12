@@ -1,0 +1,30 @@
+.navbar{
+    background: #C3002F !important;
+}
+
+li a{
+    color: white !important;
+}
+
+li a:hover{
+    color: #183A9E !important;
+    transform: scale(1.1);
+}
+
+@media(max-width: 768px)  {
+    li a:hover{
+        color: #183A9E !important;
+        transform: none;
+    }
+}
+
+.navbar-brand{
+    color: white ;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-size: 4vh;
+}
+
+.navbar-brand:hover{
+    color: #183A9E;
+}

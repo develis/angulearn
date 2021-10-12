@@ -1,0 +1,38 @@
+iframe{
+    width: 100%;
+    height: 80vh;
+}
+
+.links_videos{
+    cursor: pointer;
+    text-decoration: none;
+    color: white !important;
+    font-weight: 400;
+}
+
+.links_videos:hover{
+    opacity: 0.7;
+}
+
+input {
+    cursor: pointer;
+}
+
+main{
+    background: linear-gradient(180deg, rgba(15,37,110,1) 0%, rgb(39, 70, 161) 100%);
+    min-height: 100vh;
+}
+
+.accordion-button{
+    color: white !important;
+    font-weight: 700;
+    background: #C3002F;
+}
+
+.accordion-item {
+    background: #1B6CB3;
+}
+
+.white_color{
+    color: white;
+}

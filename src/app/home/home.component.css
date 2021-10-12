@@ -1,0 +1,18 @@
+.banner{
+    min-height: 80vh;
+    background-image: url('https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/16957/cover-REDESIGN-StepByStepAngular-Luke_Newsletter-4ccf196e360a5790beaae921500d731c-20004898dc8a42db688b8edbae4a4a94.png');
+}
+
+main{
+    background: linear-gradient(180deg, rgba(15,37,110,1) 0%, rgb(39, 70, 161) 100%);
+    color: white !important;
+}
+
+@media(max-width: 768px)  {
+    .banner{
+        display: none;
+    }
+    .chamada{
+        margin-top: 5vh;
+    }
+}

@@ -1,0 +1,87 @@
+<main class="container-fluid pt-2">
+    <div class="row pt-5">
+        <div class="col-md-3">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Introdução e organização do ambiente
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault">&nbsp;&nbsp;<a (click)="alterarLink(0)"
+                                class="links_videos">Angular em 7 minutos</a><br>
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault">&nbsp;&nbsp;<a (click)="alterarLink(2)" class="links_videos">Como
+                                aprendi Angular?</a><br>
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault">&nbsp;&nbsp;<a (click)="alterarLink(1)"
+                                class="links_videos">Instalação e preparação do ambiente</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Projetos
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault">&nbsp;&nbsp;<a (click)="alterarLink(3)"
+                                class="links_videos">Angular + Bootstrap</a><br>
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault">&nbsp;&nbsp;<a (click)="alterarLink(4)"
+                                class="links_videos">CRUD</a><br>
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault">&nbsp;&nbsp;<a (click)="alterarLink(5)" class="links_videos">Clone
+                                Netflix</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Jogos
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault">&nbsp;&nbsp;<a (click)="alterarLink(6)" class="links_videos">Jogo
+                                da velha</a><br>
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault">&nbsp;&nbsp;<a (click)="alterarLink(7)" class="links_videos">Quiz
+                                matemática</a><br>
+                            <input class="form-check-input" type="checkbox" value=""
+                                id="flexCheckDefault">&nbsp;&nbsp;<a (click)="alterarLink(8)"
+                                class="links_videos">Pokedex</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-center mt-3 white_color">Acompanhe seu progresso</h2>
+            <div class="smaller_red_line mt-2"></div>
+            <div class="progress mt-3 mb-3">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
+                    aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width: 1%" id="barraProgresso"></div>
+            </div>
+        </div>
+        <div class="col-md-9 dflex_center">
+            <iframe id="video_display" src="https://www.youtube.com/embed/mMMqMk2buzs" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+    </div>
+</main>

@@ -1,0 +1,17 @@
+main{
+    background: linear-gradient(180deg, rgba(15,37,110,1) 0%, rgb(39, 70, 161) 100%);
+    color: white !important;
+    min-height: 180vh;
+}
+
+code{
+    background: rgb(255, 255, 255);
+    padding: 0.6vh;
+    border-radius: 1vh;
+}
+
+@media(max-width: 768px)  {
+    main{
+        min-height: 210vh;
+    }
+}

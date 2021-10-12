@@ -1,0 +1,81 @@
+<main class="container-fluid">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h2 class="text-center mt-3">Pré-requisitos</h2>
+            <div class="smaller_red_line mt-2"></div>
+            <p class="justified mt-3">
+                Antes de partir para a instalação do Angular, é necessário baixar dois programas essenciais:
+            </p>
+
+            <div class="row">
+                <div class="col-md-6 dflex_center">
+                    <a class="btn btn-outline-success" href='https://nodejs.org/en/' target="_blank">
+                        <img class="img-fluid w-50" src="https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png"
+                            alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 dflex_center">
+                    <a class="btn btn-outline-danger" href='https://www.npmjs.com/package/npm' target="_blank">
+                        <img class="img-fluid"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+            <h2 class="text-center mt-5">Angular-CLI</h2>
+            <div class="smaller_red_line mt-2"></div>
+            <p class="justified mt-3">
+                Você usa a CLI Angular para criar projetos, gerar código de aplicativo e biblioteca e executar uma
+                variedade de tarefas de desenvolvimento em andamento, como teste, empacotamento e implantação.
+                Para instalar o Angular CLI, abra uma janela de terminal e execute o seguinte comando: <br>
+            </p>
+            <p class="text-center">
+                <code>npm install -g @angular/cli</code>
+            </p>
+            <h2 class="text-center mt-5">Alguns comandos importantes</h2>
+            <div class="smaller_red_line mt-2"></div>
+            <p class="text-center mt-3">
+                <code>ng new</code>
+                <br>
+                Solicita informações sobre os recursos a serem incluídos no aplicativo inicial. Aceite os
+                padrões pressionando a tecla Enter ou Return.
+                <br>
+                <br>
+                <code>ng serve --open</code>
+                <br>
+                Inicia o servidor, observa seus arquivos e reconstrói o aplicativo conforme você faz
+                alterações nesses arquivos.
+                <br>
+                <br>
+                <code>ng g component nome</code>
+                <br>
+                Cria um componente. Os componentes são o bloco de construção principal para aplicações angulares.
+                <br>
+                <br>
+                <code>ng g service nome</code>
+                <br>
+                Cria um service. São objetos instanciados apenas uma vez durante a vida útil de um aplicativo, contêm
+                métodos que mantêm os dados ao longo dela.
+                <br>
+                <br>
+                <code>ng g module nome</code>
+                <br>
+                Cria um módulo. Um módulo é um mecanismo para agrupar componentes, diretivas, pipes e serviços que estão
+                relacionados, de forma que possam ser combinados com outros módulos para criar uma aplicação.
+            </p>
+            <h2 class="text-center mt-5">Templates, diretivas, e data binding</h2>
+            <div class="smaller_red_line mt-2"></div>
+            <p class="text-center mt-3">
+                <img class="img-fluid rounded-3 shadow-lg" src="https://angular.io/generated/images/guide/architecture/component-databinding.png" alt="">
+            </p>
+            <p class="justified mt-3">
+                Um modelo combina HTML com marcação angular que pode modificar elementos HTML antes de serem exibidos. As diretivas de modelo fornecem lógica de programa e a marcação de ligação conecta os dados do seu aplicativo e o DOM. Existem dois tipos de vinculação de dados: <br>
+                A associação de eventos permite que seu aplicativo responda à entrada do usuário no ambiente de destino, atualizando os dados do aplicativo. <br>
+                A vinculação de propriedades permite interpolar valores que são calculados a partir dos dados do seu aplicativo no HTML. <br>
+                Antes de uma visualização ser exibida, o Angular avalia as diretivas e resolve a sintaxe de ligação no modelo para modificar os elementos HTML e o DOM, de acordo com os dados e a lógica do programa. O Angular oferece suporte a vinculação de dados bidirecional, o que significa que as alterações no DOM, como as escolhas do usuário, também são refletidas nos dados do programa.<br>
+                Seus modelos podem usar canais para melhorar a experiência do usuário, transformando valores para exibição. Por exemplo, use barras verticais para exibir datas e valores monetários apropriados para a localidade de um usuário. O Angular fornece tubos predefinidos para transformações comuns e você também pode definir seus próprios pipes.
+            </p>
+        </div>
+    </div>
+</main>
